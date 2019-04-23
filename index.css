@@ -1,8 +1,16 @@
+/* top | right | bottom | left */
+.page-body {
+  background-color: #3500D3;
+  color: white;
+  font-family: 'Almendra', serif;
+}
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .title {
@@ -17,4 +25,35 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: top;
+  margin: 0% 0% 0% -3%;
+}
+.skills h2 {
+  margin: 0%;
+}
+
+.projects-list {
+  margin-left: 3%;
+}
+
+.single-project {
+  border-width: 5px;
+  border-radius: 1%;
+  border-style: solid;
+  border-color: #240090;
+  margin: 5%;
+  padding: 3%;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.single-work-item {
+  margin: 1% 0% 1% 3%
+}
+
+.footer {
+  margin-top: 5%;
 }
